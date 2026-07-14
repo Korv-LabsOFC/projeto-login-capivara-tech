@@ -28,7 +28,8 @@ btnCadastro.addEventListener('click', () => {
         .then(confirmacao => {
             alert(confirmacao.mensagem);
             inpCadEmail.value = ''; inpCadSenha.value = '';
-        });
+        })
+        .catch(err => alert("Erro ao cadastrar: " + err.message));
 });
 
 btnLogin.addEventListener('click', () => {
