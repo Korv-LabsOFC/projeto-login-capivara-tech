@@ -19,7 +19,7 @@ btnCadastro.addEventListener('click', () => {
     const email = inpCadEmail.value;
     const senha = inpCadSenha.value;
     if (!email || !senha) { alert("Preencha os campos!"); return; }
-    fetch('http://localhost:3000/cadastrar', {
+    fetch('/cadastrar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, senha })
@@ -35,7 +35,7 @@ btnLogin.addEventListener('click', () => {
     const email = inpLogEmail.value;
     const senha = inpLogSenha.value;
     if (!email || !senha) { alert("Preencha o login!"); return; }
-    fetch('http://localhost:3000/login', {
+    fetch('/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, senha })
