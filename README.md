@@ -16,6 +16,12 @@
   <img src="https://img.shields.io/badge/license-MIT-0078D4?style=for-the-badge" alt="License">
 </p>
 
+<p align="center">
+  <a href="https://www.youtube.com/@capideb">
+    <img src="https://img.shields.io/badge/YouTube-Capi.deb-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube — Capi.deb">
+  </a>
+</p>
+
 ---
 
 Este foi o **meu primeiro projeto envolvendo banco de dados**! Um sistema de login completo com cadastro e autenticação, feito do zero com Node.js, Express, HTML, CSS e SQLite.
