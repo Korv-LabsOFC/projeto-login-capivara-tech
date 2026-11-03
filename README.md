@@ -41,7 +41,7 @@ Criado por **Israel Marques** (12 anos).
 
 ```bash
 # Clone o repositório
-git clone https://github.com/karnel-termuxOFC/projeto-login-capivara-tech.git
+git clone https://github.com/Korv-LabsOFC/projeto-login-capivara-tech.git
 
 # Entre na pasta
 cd projeto-login-capivara-tech
@@ -85,7 +85,7 @@ MIT © Israel Marques
 ---
 
 <p align="center">
-  <a href="https://github.com/karnel-termuxOFC">
+  <a href="https://github.com/Korv-LabsOFC">
     <img src="https://img.shields.io/badge/feito%20por-Israel%20Marques-0078D4?style=for-the-badge" alt="Feito por Israel Marques">
   </a>
 </p>
