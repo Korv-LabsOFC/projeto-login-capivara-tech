@@ -89,3 +89,9 @@ MIT © Israel Marques
     <img src="https://img.shields.io/badge/feito%20por-Israel%20Marques-0078D4?style=for-the-badge" alt="Feito por Israel Marques">
   </a>
 </p>
+
+---
+
+## KORV Labs
+
+This early project is preserved as part of the **KORV Labs** development history and learning journey.
