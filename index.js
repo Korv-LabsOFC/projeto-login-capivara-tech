@@ -1,4 +1,13 @@
-const btnCadastro = document.getElementById('btn-cadastro');
+// The file is also the Render start entrypoint (node index.js).
+// In Node, start Express; in the browser, run the existing UI handlers.
+if (typeof document === "undefined") {
+  const app = require("./server");
+  const port = Number(process.env.PORT) || 3000;
+  app.listen(port, "0.0.0.0", () => {
+    console.log(`Capivara Tech login listening on port ${port}`);
+  });
+} else {
+  const btnCadastro = document.getElementById('btn-cadastro');
 const inpCadEmail = document.getElementById('email-cad');
 const inpCadSenha = document.getElementById('senha-cad');
 const linkCadastro = document.getElementById('link-cad');
@@ -47,3 +56,4 @@ btnLogin.addEventListener('click', () => {
             inpLogEmail.value = ''; inpLogSenha.value = '';
         });
 });
+}
